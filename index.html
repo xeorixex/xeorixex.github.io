@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="windows-1251">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Железо — Никель | Диаграмма состояния</title>
+<style>
+body{margin:8px;background:#c0c0c0;color:#000;font-family:"Times New Roman",serif;font-size:16px}
+a{color:#0000ee}a:visited{color:#551a8b}
+.page{max-width:980px;margin:0 auto;background:#fff;border:3px ridge #eee;padding:10px}
+.top{background:#000080;color:#fff;padding:12px;text-align:center;border:3px outset #ddd}
+h1{font-size:30px;margin:4px}h2{font-size:23px;color:#000080;border-bottom:2px solid #000080;padding-bottom:3px}
+h3{font-size:18px;color:#800000;margin-bottom:5px}
+marquee{background:#ffff00;color:#800000;font-weight:bold;padding:4px;border:2px inset #ddd;margin:10px 0}
+.menu{background:#e0e0e0;border:2px inset #aaa;padding:8px;text-align:center;line-height:2}
+.menu a{font-weight:bold;margin:0 7px;white-space:nowrap}
+hr{border:0;border-top:2px groove #888}
+.box{border:2px groove #aaa;background:#f8f8f8;padding:10px;margin:12px 0}
+.diagram{display:block;max-width:100%;height:auto;margin:8px auto;border:2px inset #aaa;background:#fff}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{border:1px solid #777;padding:6px;text-align:left;vertical-align:top}
+th{background:#000080;color:white}
+tr:nth-child(even){background:#eee}
+.note{background:#ffffcc;border:1px dashed #aa8800;padding:8px}
+.small{font-size:13px;color:#444}
+.center{text-align:center}
+.badge{display:inline-block;background:#ddd;border:1px outset #fff;padding:2px 7px;margin:2px}
+footer{text-align:center;font-size:13px;background:#e5e5e5;border:2px inset #aaa;padding:8px;margin-top:15px}
+button{font-family:Arial,sans-serif;font-size:13px}
+input,textarea{font-family:"Courier New",monospace}
+textarea{width:98%;height:110px}
+@media(max-width:650px){.page{padding:6px}.menu a{display:inline-block}.top h1{font-size:24px}table{font-size:13px}}
+</style>
+</head>
+<body>
+<div class="page">
+ <div class="top">
+  <div style="font-size:13px">ЭЛЕКТРОННЫЙ СПРАВОЧНИК · МАТЕРИАЛОВЕДЕНИЕ</div>
+  <h1>ДИАГРАММА СОСТОЯНИЯ Fe–Ni</h1>
+  <div>ДВОЙНАЯ СИСТЕМА «ЖЕЛЕЗО — НИКЕЛЬ»</div>
+ </div>
+ <marquee scrollamount="3">Добро пожаловать! Информация о фазах, линиях и превращениях в системе Fe–Ni</marquee>
+ <div class="menu">
+  <a href="#about">[О системе]</a>
+  <a href="#diagram">[Диаграмма]</a>
+  <a href="#phases">[Фазы]</a>
+  <a href="#lines">[Линии и точки]</a>
+  <a href="#changes">[Превращения]</a>
+  <a href="#sources">[Источники]</a>
+ </div>
+ <p class="center">
+  <span class="badge">РАЗДЕЛ: СПЛАВЫ</span>
+  <span class="badge">СИСТЕМА Fe–Ni</span>
+  <span class="badge">ФАЗОВЫЕ ДИАГРАММЫ</span>
+ </p>
+ <hr>
+ <h2 id="about">1. Общие сведения о системе Fe–Ni</h2>
+ <div class="box">
+  <p>Железо-никелевые сплавы состоят из двух компонентов: железа и никеля. Никель растворяется в железе и изменяет температуры устойчивости фаз, структуру и свойства сплава. В зависимости от состава и температуры в системе могут существовать жидкая фаза, твёрдые растворы на основе железа и упорядоченная фаза FeNi<sub>3</sub>.</p>
+  <p>Диаграмма состояния показывает равновесные фазы при различных температурах и составах. На исходной диаграмме нижняя горизонтальная шкала дана в атомных процентах никеля (ат. % Ni), верхняя — в массовых процентах (мас. % Ni), вертикальная ось — температура в °C. Эти две шкалы нельзя смешивать.</p>
+ </div>
+
+ <h2 id="diagram">2. Диаграмма состояния железо–никель</h2>
+ <div class="box center">
+  <img class="diagram" id="diagramImage" src="images/fe-ni-diagramma.png" alt="Диаграмма состояния железо — никель с буквенными обозначениями">
+  <b>Рис. 1. Диаграмма состояния Fe–Ni</b>
+  <p class="small">Буквами обозначены характерные точки и участки линий диаграммы.</p>
+ </div>
+ <div class="note"><b>Примечание.</b> Исходная диаграмма имеет ограниченное разрешение в железо-богатой области. Поэтому положение некоторых близко расположенных границ и промежуточной точки солидуса следует рассматривать как ориентировочное.</div>
+
+ <h2 id="phases">3. Основные фазовые области</h2>
+ <div class="box">
+  <h3>L — жидкая фаза</h3><p>Расплав железа и никеля. Выше линии ликвидуса сплав полностью жидкий.</p>
+  <h3>δ-Fe</h3><p>Высокотемпературный твёрдый раствор на основе железа с объёмно-центрированной кубической решёткой (ОЦК).</p>
+  <h3>γ-(Fe,Ni)</h3><p>Твёрдый раствор на основе γ-железа с гранецентрированной кубической решёткой (ГЦК). Занимает большую центральную часть диаграммы.</p>
+  <h3>α-Fe</h3><p>Низкотемпературный твёрдый раствор на основе α-железа с ОЦК-решёткой.</p>
+  <h3>FeNi<sub>3</sub></h3><p>Упорядоченная интерметаллическая фаза в никель-богатой области. Её образование связано с упорядочением атомов железа и никеля.</p>
+ </div>
+
+ <h2 id="lines">4. Основные линии и характерные точки</h2>
+ <div class="box">
+  <h3>Линия ликвидуса A–B–C–D</h3>
+  <p>Ликвидус — верхняя граница области кристаллизации. Выше неё сплав полностью жидкий. При охлаждении пересечение ликвидуса означает начало кристаллизации: из расплава появляются первые кристаллы твёрдой фазы.</p>
+  <h3>Линия солидуса A–E–B</h3>
+  <p>Солидус — нижняя граница двухфазной области «жидкость + твёрдая фаза». Ниже солидуса сплав полностью твёрдый; при охлаждении здесь исчезает последняя часть расплава. На исходном изображении эта ветвь расположена очень близко к ликвидусу и читается с ограниченной точностью.</p>
+  <h3>Характерные точки</h3>
+  <table>
+   <tr><th>Точка</th><th>Температура и состав</th><th>Значение</th></tr>
+   <tr><td><b>A</b></td><td>1538 °C, 0 ат. % Ni</td><td>Температура плавления чистого железа.</td></tr>
+   <tr><td><b>B</b></td><td>Около 1514 °C, примерно 4 ат. % Ni</td><td>Перитектическая точка; реакция L + δ → γ.</td></tr>
+   <tr><td><b>C</b></td><td>Около 1440 °C, 66 ат. % Ni</td><td>Минимум ликвидуса.</td></tr>
+   <tr><td><b>D</b></td><td>1455 °C, 100 ат. % Ni</td><td>Температура плавления чистого никеля.</td></tr>
+   <tr><td><b>E</b></td><td>Промежуточная точка на ветви солидуса</td><td>Положение ориентировочное: точные координаты по исходному изображению не определяются.</td></tr>
+   <tr><td><b>F–G</b></td><td>Около 347 °C, примерно 49–63 ат. % Ni</td><td>Горизонтальный участок низкотемпературного эвтектоидного превращения на учебной схеме.</td></tr>
+   <tr><td><b>H</b></td><td>Около 517 °C, 72 ат. % Ni</td><td>Характерная точка области упорядочения FeNi<sub>3</sub>.</td></tr>
+   <tr><td><b>I</b></td><td>912 °C, 0 ат. % Ni</td><td>Переход γ-Fe → α-Fe у чистого железа.</td></tr>
+   <tr><td><b>J</b></td><td>1394 °C, 0 ат. % Ni</td><td>Переход δ-Fe → γ-Fe у чистого железа.</td></tr>
+   <tr><td><b>K</b></td><td>Около 770 °C, 0 ат. % Ni</td><td>Температура Кюри чистого железа.</td></tr>
+   <tr><td><b>L</b></td><td>Около 354,3 °C, 100 ат. % Ni</td><td>Температура Кюри чистого никеля.</td></tr>
+  </table>
+ </div>
+
+ <h2 id="changes">5. Превращения при охлаждении</h2>
+ <div class="box">
+  <h3>Перитектическое превращение в точке B</h3>
+  <p>Вблизи 1514 °C протекает реакция <b>L + δ → γ</b>. Жидкость взаимодействует с ранее образовавшейся δ-фазой, в результате образуется γ-твёрдый раствор.</p>
+  <h3>Превращения железа в точках J и I</h3>
+  <p>У чистого железа около 1394 °C происходит переход δ-Fe в γ-Fe, а около 912 °C — переход γ-Fe в α-Fe. Около 770 °C (точка K) происходит магнитное превращение Кюри без изменения типа кристаллической решётки.</p>
+  <h3>Упорядочение FeNi<sub>3</sub> в точке H</h3>
+  <p>Около 517 °C и 72 ат. % Ni происходит упорядочение атомов в фазе FeNi<sub>3</sub>. Атомы железа и никеля занимают предпочтительные положения в кристаллической решётке.</p>
+  <h3>Низкотемпературное превращение на участке F–G</h3>
+  <p>Для некоторых составов описывается эвтектоидное превращение <b>γ → α + FeNi<sub>3</sub></b>. Оно происходит полностью в твёрдом состоянии. В научной литературе приводится температура около 345 °C и состав около 52 ат. % Ni; на данной учебной схеме указано около 347 °C.</p>
+  <h3>Магнитные превращения в точках K и L</h3>
+  <p>Температуры Кюри чистого железа (около 770 °C) и никеля (около 354,3 °C) связаны с изменением магнитного состояния, а не с плавлением.</p>
+ </div>
+
+ <h2>6. Как пользоваться диаграммой</h2>
+ <div class="box">
+  <p>Для выбранного состава проводят мысленную вертикальную линию от соответствующего значения содержания никеля. При охлаждении двигаются сверху вниз. Пересечение ликвидуса показывает начало кристаллизации, пересечение солидуса — завершение затвердевания. Последующие пересечения границ твёрдых фаз указывают на изменения фазового состава.</p>
+  <p>Точная последовательность превращений зависит от содержания никеля. Для чтения диаграммы нужно использовать одну шкалу состава: атомную или массовую.</p>
+ </div>
+
+ <h2 id="sources">7. Литература и источники</h2>
+ <div class="box">
+  <ol>
+   <li>Swartzendruber L. J., Itkin V. P., Alcock C. B. The Fe-Ni (Iron-Nickel) System. <i>Journal of Phase Equilibria</i>. 1991. Vol. 12. P. 288–312. <a href="https://doi.org/10.1007/BF02649918">DOI: 10.1007/BF02649918</a>.</li>
+   <li><i>ASM Handbook</i>. Volume 3: Alloy Phase Diagrams. ASM International, 1992. Раздел «Fe-Ni (Iron-Nickel) System».</li>
+   <li>Cacciamani G. et al. The Fe–Ni system: Thermodynamic modelling assisted by atomistic calculations. <i>Intermetallics</i>. 2010. Vol. 18. P. 1148–1162. <a href="https://doi.org/10.1016/j.intermet.2010.02.026">DOI: 10.1016/j.intermet.2010.02.026</a>.</li>
+   <li>Yang C. W., Williams D. B., Goldstein J. I. A revision of the Fe-Ni phase diagram at low temperatures. <i>Journal of Phase Equilibria</i>. 1996. Vol. 17, No. 6. P. 522–531. <a href="https://doi.org/10.1007/BF02665999">DOI: 10.1007/BF02665999</a>.</li>
+  </ol>
+ </div>
+
+ <hr>
+ <div class="box">
+  <b>Дополнительные материалы</b><br><br>
+  Загрузить другую версию диаграммы: <input type="file" id="imageUpload" accept="image/*"><br><br>
+  <button onclick="window.print()">Распечатать страницу</button>
+  <button onclick="downloadPage()">Сохранить страницу HTML</button>
+  <p class="small">Загруженная картинка отображается только в текущем окне браузера. Чтобы сохранить изменённую страницу, воспользуйтесь кнопкой сохранения HTML.</p>
+ </div>
+ <footer>
+  <b>Fe–Ni: железо — никель</b><br>
+  Информационная страница по диаграмме состояния бинарного сплава<br>
+  <span class="small">Оптимизировано для просмотра на компьютере и мобильных устройствах</span>
+ </footer>
+</div>
+<script>
+document.getElementById('imageUpload').addEventListener('change',function(e){
+ const f=e.target.files[0]; if(!f)return;
+ const r=new FileReader();r.onload=()=>document.getElementById('diagramImage').src=r.result;r.readAsDataURL(f);
+});
+function downloadPage(){
+ const html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+ const blob=new Blob([html],{type:'text/html;charset=utf-8'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='fe-ni-spravochnik.html';a.click();URL.revokeObjectURL(a.href);
+}
+</script>
+</div>
+</body>
+</html>
